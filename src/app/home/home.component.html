@@ -3,3 +3,7 @@
 <app-greeting [message]="homeMessage"/>
 <!-- harcoded string value -->
 <app-greeting [message]="'Hardcoded String value'"/>
+<!-- event handler -->
+ <input type="text" (keyup)="keyUpHandler($event)" />
+
+
